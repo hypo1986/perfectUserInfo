@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>perfect-info</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/base.css">
+        <link rel="stylesheet" type="text/css" href="../css/common.css">
+        <link rel="stylesheet" type="text/css" href="../css/perfectinfo.css">
+
+        <!--[if lt IE 9]>
+            <script src="../js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+    <article class="perfect-info-wrap">
+        <header class="perfect-info-header">
+            <img src="../images/perfect-info-logo.png" />
+            <span class="pih-title">完善基本资料</span>
+        </header>
+        <section class="perfect-info-main fn-clear">
+            <div class="pim-left">
+                <img class="piml-head" src="../images/perfect-info-head.jpg" />
+                <button class="piml-edit-head">更换头像</button>
+            </div>
+            <div class="pim-right">
+                <form class="pimr-form-tpl" action="#" method="post">
+                    <dl class="pimr-list fn-clear">
+                        <dt>昵称</dt>
+                        <dd>
+                            <input type="text" id="pimName" class="perfect-info-inp " placeholder="请输入昵称" /><i class="inp-ok" style="display:none;"></i>
+                            <span class="inp-error" style="display:none;">请输入昵称！</span>
+                        </dd>
+                    </dl>
+
+                    <dl class="pimr-list fn-clear">
+                        <dt>邮箱</dt>
+                        <dd>
+                            <input type="text" id="pimEmail" class="perfect-info-inp" placeholder="请输入登陆邮箱" /><i class="inp-ok" style="display:none;"></i>
+                            <span class="inp-error" style="display:none;">输入格式错误！</span>
+                        </dd>
+                    </dl>
+
+                    <dl class="pimr-list fn-clear">
+                        <dt>密码</dt>
+                        <dd>
+                            <input type="password" id="pimPassword" class="perfect-info-inp" placeholder="请输入登陆密码" /><i class="inp-ok" style="display:none;"></i>
+                            <span class="inp-error" style="display:none;">最小6位！</span>
+                        </dd>
+                    </dl>
+
+                    <dl class="pimr-list fn-clear">
+                        <dt>性别</dt>
+                        <dd>
+                            <div class="pif-sex-label">
+                                <span class="pif-sex" val="1">男</span><span class="pif-sex" val="2">女</span><span class="pif-sex on" val="3">保密</span>
+                            </div>
+                        </dd>
+                    </dl>
+
+                    <dl class="pimr-list fn-clear">
+                        <dt></dt>
+                        <dd style="height:50px;margin-left:0;">
+                            <label class="pif-chk-tpl"><input type="checkbox" class="pif-chk" checked="checked" />我已阅读并同意《服务条款》</label>
+                        </dd>
+                    </dl>
+
+                    <dl class="pimr-list fn-clear">
+                        <dt></dt>
+                        <dd style="height:45px;margin-left:0;">
+                            <button class="pif-btn" type="button">完成</button> <a href="javascript:;" class="pif-pass">下次填写</a>
+                        </dd>
+                    </dl>
+
+                </form>
+
+            </div>
+            <div class="perfect-info-img"></div>
+        </section>
+    </article>
+
+        <script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="../js/perfectinfo.js"></script>
+        
+    </body>
+</html>
