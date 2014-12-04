@@ -1,0 +1,10 @@
+{
+    "success": true,
+    "value":{
+        "username":"aa",
+        "useremail":"aaa@126.com",
+        "userpwd":"123456",
+        "usersex":"1"
+    }
+
+}
